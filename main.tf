@@ -16,7 +16,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "rg-tftraining-cadepoju"
-  location = "East US"
+  location = "eastus"
 }
 
 
